@@ -5,6 +5,7 @@ import { Component } from 'react'
 
 interface MyClassComponentProps {
   subTitle: string
+  value?: boolean
 }
 
 interface MyClassComponentState {

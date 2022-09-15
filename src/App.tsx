@@ -1,12 +1,15 @@
 import React from 'react'
 import './App.css'
-import MyClassComponent from './components/MyClassComponent'
+import MyFunctionalComponent from './components/MyFunctionalComponent'
+// import MyClassComponent from './components/MyClassComponent'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <MyClassComponent subTitle="React-0122" />
+        {/* <MyClassComponent subTitle="React-0122" value={false} /> */}
+        {/* <MyClassComponent subTitle="React-0122" /> */}
+        <MyFunctionalComponent subTitle="React-0122" value={true} />
       </header>
     </div>
   )
