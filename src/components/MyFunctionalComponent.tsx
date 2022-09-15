@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 interface MyFunctionalComponentProps {
   subTitle: string
@@ -37,6 +37,10 @@ const MyFunctionalComponent = ({
   // useState accetta un type argument con <>, nel caso non volessimo che
   // il valore iniziale della variabile dichiari anche permanentemente
   // il suo tipo
+
+  useEffect(() => {
+    console.log('mounted')
+  }, [])
 
   return (
     <div>

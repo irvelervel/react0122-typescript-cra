@@ -1,6 +1,8 @@
 import React from 'react'
 import './App.css'
-import MyFunctionalComponent from './components/MyFunctionalComponent'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import BootstrapComponent from './components/BootstrapComponent'
+// import MyFunctionalComponent from './components/MyFunctionalComponent'
 // import MyClassComponent from './components/MyClassComponent'
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
       <header className="App-header">
         {/* <MyClassComponent subTitle="React-0122" value={false} /> */}
         {/* <MyClassComponent subTitle="React-0122" /> */}
-        <MyFunctionalComponent subTitle="React-0122" value={true} />
+        {/* <MyFunctionalComponent subTitle="React-0122" value={true} /> */}
+        <BootstrapComponent />
       </header>
     </div>
   )
